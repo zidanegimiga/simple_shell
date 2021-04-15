@@ -1,0 +1,51 @@
+.TH SHELL 1 "15th April 2021" "1.0" "simple shell man page"
+.SH NAME
+Zinyshell - Zidane_+_Nyairo_shell
+
+
+.SH SYNOPSIS
+Zinyshell$ [optiollns] [file]
+
+
+.SH DESCRIPTION
+.B Zinyshell
+is a CLI that reads input from the user and executes the input. Ojashell can be run in both interactive and non interactive mode.
+.br
+To run Zinyshell in interactive mode, invoke ./hsh
+.br
+To run Zinyshell in non-interactive mode, invoke [command] | ./hsh
+
+The ./hsh file is the executable that run Zinyshell
+
+.SH USAGE
+In addition to searching the path, the following features are supported:
+.br
+ls - list files in directory
+.br
+env - Print list of the environment variables
+.br
+
+.SH EXAMPLE
+$ ./hsh
+
+Zinyshell$ ls
+
+hsh main.c
+
+Zinyshell$ exit
+
+$
+
+.SH BUILTINS
+.br
+exit - to exit Zinyshell
+.br
+env -  to print environment variables
+.br
+echo - echo to standard output
+
+.SH BUGS
+Report any bugs to <lamarnyairo@gmail.com> or <zidanegimiga@gmail.com>
+.SH AUTHORS
+Lameck Nyairo <lamarnyairo@gmail.com> &&
+Zidane Gimiga <zidanegimiga@gmail.com>
