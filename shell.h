@@ -17,6 +17,7 @@ char *read_line(void);
 char **split_line(char *line);
 void loop(void);
 int execute(char **args);
+int _strlen(const char *str);
 
 
 #endif /* SHELL_H */
